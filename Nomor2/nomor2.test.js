@@ -13,5 +13,5 @@ test("Test 4", () => {
     expect(findMinMax([-7, -4, 9, 6, 4, 5])).toEqual("min: -7 index: 0 max: 9 index: 2");
 });
 test("Test 5", () => {
-    expect(findMinMax([2, -5, -4, 22, 7, 7])).toEqual("min: -5 index: 1 max: 22 index: 22");
+    expect(findMinMax([2, -5, -4, 22, 7, 7])).toEqual("min: -5 index: 1 max: 22 index: 3");
 });
